@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 
 function useTimer(start = 10) {
-  const savedDate = window.localStorage.getItem('date')
+  const localStorageKey = 'fc6024652c129208064fdeca6732464e'
+  const savedDate = window.localStorage.getItem(localStorageKey)
   const dateNow = Date.now()
   const difference = Math.floor(new Date(dateNow - savedDate).getTime() / 1000)
 
   if (!(savedDate && difference < start * 60)) {
-    window.localStorage.setItem('date', `${dateNow}`)
+    window.localStorage.setItem(localStorageKey, `${dateNow}`)
   }
 
   const [timer, setTimer] = useState(
