@@ -1,0 +1,74 @@
+{
+  "chance": {
+    "img": {"src": "images/program/stars.png", "alt": "stars"},
+    "title": "Congratulations!",
+    "message": "You are eligible to participatein the official U.S Green Card Lottery",
+    "winning": "Chance of winning",
+    "coefficient": "1:45"
+  },
+  "products": [
+    {
+      "title": "One Year",
+      "titletip": "Registration for Single",
+      "price": "150",
+      "programinclude": [
+        "Guaranteed Lottery Submission",
+        "Professional Immigration ",
+        "Bullet-Proof Validation"
+      ],
+      "selected": true
+    },
+    {
+      "title": "Three Years",
+      "titletip": "Registration for Single",
+      "price": "350",
+      "programinclude": [
+        "Incl. 150 € seasonal discount",
+        "Consultation Service",
+        "Form Review & Submission",
+        "Certified Participation",
+        " Standard Winners' Service",
+        "USA Activation Flight in case you win"
+      ],
+      "selected": false
+    },
+    {
+      "title": "Five Years",
+      "titletip": "Registration for Single",
+      "price": "600",
+      "programinclude": [
+        "Incl. 200 € seasonal discount",
+        "Consultation Service",
+        "Form Review & Submission",
+        "Certified Participation",
+        "Standard Winners' Service",
+        "USA Activation Flight in case you win",
+        "Personal Contact"
+      ],
+      "selected": false
+    }
+  ],
+  "payment": {
+    "url": "https://payment.gobemark.info/apis/configs/forms/?json=paymentcoupon/payment/index",
+    "title": "You Have Selected the Three Years Program",
+    "titletip": "For a Total Amount of €300",
+    "titleinfo": "Safe and secure payment",
+    "info": "Nothing is more important to us than the security of our clients’ information. We usethe most up-to-date security protocols to ensure all of your data is always safe."
+  },
+  "footer": {
+    "caution": "Beware of scams. Certain fraudulent commercial and non-government websites claim that they are directly linked to the US Department of State, and may misuse your personal information and payments to their own benefit. Please beware of such organizations that promise guaranteed immigration and provide unwarranted claims.",
+    "reachus": "You can reach us by phone: +1-888-544-9166 or via email: support@usalws.com New York City",
+    "terms": "https://usalws.com/terms-and-conditions/",
+    "images": [
+      {"src": "images/footer/dinner.png", "alt": "dinner"},
+      {"src": "images/footer/facebook.png", "alt": "facebook"},
+      {"src": "images/footer/mc.png", "alt": "mc"},
+      {"src": "images/footer/pci.png", "alt": "pci"},
+      {"src": "images/footer/express.png", "alt": "american express"},
+      {"src": "images/footer/secure.png", "alt": "secure"},
+      {"src": "images/footer/visa.png", "alt": "visa"}
+    ],
+    "policy": "https://usalws.com/privacy-policy/",
+    "description": "usalws.com is a private enterprise and does not affiliated with the U.S. Government or any government agency. You can enter the U.S. Diversity Visa Lottery for Free at www.state.gov in between their open registration dates which typically start in early October 2016. We are not a law firm, we do not provide legal advice, and are not a substitute for an attorney. This site provides a review and submission service that requires a fee. Payment descriptor will appear as USAVisaPro, CYPRUS. Access to and use of usalws website is subject to Terms of Use and Privacy Policy. Reproduction in whole or in part of this website is strictly prohibited. usalws.com is owned by Amerigo Marketing LTD, Athinon 82, Limassol 3040, Cyprus."
+  }
+}

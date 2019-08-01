@@ -1,0 +1,48 @@
+{
+  "inputs": {
+    "product": {
+      "type": "hidden",
+      "value": ""
+    },
+    "name:fullname": {
+      "validate": "required",
+      "label": "Cardholder Name",
+      "type": "text",
+      "placeholder": "John Smith"
+    },
+    "cc:number": {
+      "validate": "required",
+      "label": "Card number",
+      "type": "number",
+      "placeholder": "xxxx-xxxx-xxxx-xxxx"
+    },
+    "cc:expire:month": {
+      "validate": "required",
+      "label": "*month",
+      "type": "month",
+      "placeholder": "xx"
+    },
+    "cc:expire:year": {
+      "validate": "required",
+      "label": "*year",
+      "type": "year",
+      "placeholder": "xx"
+    },
+    "cc:cvv": {
+      "validate": "required",
+      "label": "*cvv",
+      "type": "number",
+      "placeholder": "xxx"
+    },
+    "terms ": {
+      "label": "I have read and accept the terms of use,rules of flight and privacy policy",
+      "type": "checkbox"
+    },
+    "pay": {
+      "label": "Pay Now",
+      "type": "submit",
+      "method": "POST",
+      "action": ""
+    }
+  }
+}
