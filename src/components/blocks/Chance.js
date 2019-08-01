@@ -3,7 +3,7 @@ import React from 'react'
 import Image from '../shared/Image'
 import useTimer from '../../hooks/useTimer'
 
-const Chance = ({ chance: { title, message, coefficient, winning, img } }) => {
+const Chance = ({ chance: { title, message, img } }) => {
   const { seconds, minutes } = useTimer(10)
 
   return (
