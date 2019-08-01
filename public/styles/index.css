@@ -70,8 +70,7 @@ body {
   font-size: 2.7291rem;
 }
 
-.program__container {
-  
+.program__container {  
   margin: 0 auto;
   padding: 1.4rem 0.77rem;
 }
@@ -86,8 +85,7 @@ body {
 
 .program__chance-box {
   max-width: 21.89rem;
-  width: 100%;
-  
+  width: 100%;  
   text-align: center;
    
 }
@@ -154,7 +152,7 @@ body {
 .program__products {
   display: flex;
   justify-content: space-around;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -394,7 +392,7 @@ label[name="terms "] {
 }
 
 .footer__caution { 
-  margin: 0 auto;
+  margin: 1.3rem auto;
 }
 
 .footer__icon-gallery {
@@ -432,8 +430,7 @@ label[name="terms "] {
 }
 
  @media (min-width: 600px) {
-  .product {
-    
+  .product {    
     max-width: 28.875rem;
   }
 
@@ -441,8 +438,7 @@ label[name="terms "] {
     max-width: 32.5rem;
   }
 
-  .program__chance-title {
-   
+  .program__chance-title {   
     font-size: 2rem;
    
   }
@@ -453,9 +449,22 @@ label[name="terms "] {
 
   .program__win {
     font-size: 4.3125rem;   
+    padding: 1rem;
   }
+
   .program__win-unit {
     font-size: 1.875rem;
+  }
+
+  .product__discount-banner {    
+    left: -2.5rem;
+    top: auto;
+    transform: none;
+    bottom: 0.5rem;
+  }
+
+  .product__discount-img {
+    width: 9rem;
   }
 }
 /* @media (min-width: 450px) {
