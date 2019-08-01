@@ -2,52 +2,59 @@
   "chance": {
     "img": {"src": "images/program/stars.png", "alt": "stars"},
     "title": "Congratulations!",
-    "message": "You are eligible to participatein the official U.S Green Card Lottery",
-    "winning": "Chance of winning",
-    "coefficient": "1:45"
+    "message": "You are eligible to participatein the official U.S Green Card Lottery"    
   },
-  "products": [
-    {
-      "title": "One Year",
-      "titletip": "Registration for Single",
-      "price": "150",
-      "programinclude": [
-        "Guaranteed Lottery Submission",
-        "Professional Immigration ",
-        "Bullet-Proof Validation"
-      ],
-      "selected": true
-    },
-    {
-      "title": "Three Years",
-      "titletip": "Registration for Single",
-      "price": "350",
-      "programinclude": [
-        "Incl. 150 € seasonal discount",
-        "Consultation Service",
-        "Form Review & Submission",
-        "Certified Participation",
-        " Standard Winners' Service",
-        "USA Activation Flight in case you win"
-      ],
-      "selected": false
-    },
-    {
-      "title": "Five Years",
-      "titletip": "Registration for Single",
-      "price": "600",
-      "programinclude": [
-        "Incl. 200 € seasonal discount",
-        "Consultation Service",
-        "Form Review & Submission",
-        "Certified Participation",
-        "Standard Winners' Service",
-        "USA Activation Flight in case you win",
-        "Personal Contact"
-      ],
-      "selected": false
-    }
-  ],
+  "products": 
+    
+     [
+      {
+        "discount": 70,
+        "img": {"src": "images/product/star.png", "alt": "star"},
+        "title": "One Year",
+        "titletip": "Registration for Single",
+        "price": "150",
+        "programinclude": [
+          "Guaranteed Lottery Submission",
+          "Professional Immigration ",
+          "Bullet-Proof Validation"
+        ],
+        "selected": true
+      },
+      {
+        "discount": 70,
+        "img": {"src": "images/product/star.png", "alt": "star"},
+        "title": "Three Years",
+        "titletip": "Registration for Single",
+        "price": "350",
+        "programinclude": [
+          "Incl. 150 € seasonal discount",
+          "Consultation Service",
+          "Form Review & Submission",
+          "Certified Participation",
+          " Standard Winners' Service",
+          "USA Activation Flight in case you win"
+        ],
+        "selected": false
+      },
+      {
+        "discount": 70,
+        "img": {"src": "images/product/star.png", "alt": "star"},
+        "title": "Five Years",
+        "titletip": "Registration for Single",
+        "price": "600",
+        "programinclude": [
+          "Incl. 200 € seasonal discount",
+          "Consultation Service",
+          "Form Review & Submission",
+          "Certified Participation",
+          "Standard Winners' Service",
+          "USA Activation Flight in case you win",
+          "Personal Contact"
+        ],
+        "selected": false
+      }
+    ]
+  ,
   "payment": {
     "url": "https://payment.gobemark.info/apis/configs/forms/?json=paymentcoupon/payment/index",
     "title": "You Have Selected the Three Years Program",
