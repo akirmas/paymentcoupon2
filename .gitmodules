@@ -1,0 +1,3 @@
+[submodule "src/react-components"]
+	path = src/react-components
+	url = git@github.com:akirmas/react-components.git
