@@ -360,6 +360,7 @@ input[name="cc:number"] {
 
 label[name="terms "] {
   display: inline-block;
+  width: 80%;
 }
 
 [type="submit"] {
