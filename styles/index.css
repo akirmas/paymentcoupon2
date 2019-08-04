@@ -466,40 +466,8 @@ label[name="terms "] {
   .product__discount-img {
     width: 9rem;
   }
+
+  label[name="terms "] {    
+    width: auto;
+  }
 }
-/* @media (min-width: 450px) {
-  
-  .product {
-    width: 300px;    
-  }  
-}
-
-@media (min-width: 850px) {
-  .program__chance {
-    flex-direction: row;
-  }
-  .program__chance-box {
-    width: 50%;
-    padding-left: 2rem;
-  }
-  .program__win {
-    max-width: 25rem;
-  }
-
-  
-}
-
-@media (min-width: 1050px) {
-  .footer__caution {
-    width: 70%;    
-  }
-
-  .product {
-    width: 30%;
-    margin: 0;
-  }
-  
-  .footer__description {
-    width: 70%;
-  }
-} */
