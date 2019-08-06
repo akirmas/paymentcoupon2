@@ -23,7 +23,7 @@
       {
         "discount": 70,
         "img": {"src": "images/product/star.png", "alt": "star"},
-        "title": "Three Years",
+        "title": "Five Years",
         "titletip": "Registration for Single",
         "price": "350",
         "programinclude": [
@@ -39,7 +39,7 @@
       {
         "discount": 70,
         "img": {"src": "images/product/star.png", "alt": "star"},
-        "title": "Five Years",
+        "title": "VIP Membership",
         "titletip": "Registration for Single",
         "price": "600",
         "programinclude": [
